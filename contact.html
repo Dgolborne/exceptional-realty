@@ -27,7 +27,31 @@
 
 
 <!-- Contact Form -->
+<form action="#" method="post">
+	
+	<label for="fullname">Name</label> 
+	<input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+	<!-- the FOR= part makes the cursor go straight to the input with the "id" that matches the "for" clause -->
+	
+	<label for="email">Email</label>
+	<input type="email" id="email" name="Email" placeholder="Your Email" required>
+	<!-- this includes email validation so the email must exist -->
 
+	<label for="phone">Phone</label>
+	<input type="tel" id="phone" name="Phone" placeholder="Your Phone Number" (optional)>
+	<!-- this input pulls up a keypad on a mobile device -->
+
+	<label for="message">Message</label>
+	<textarea name="Message" id="message" cols="30" rows="10"></textarea>
+	<!-- this will bring up a message box --> 
+
+	<input type="submit" value="Send">
+	<!-- creates a button, which contains what ever the words in the "Value" feature -->
+
+
+
+
+</form>
 
 
 </body>
